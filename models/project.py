@@ -35,3 +35,13 @@ class Project:
 
     def __str__(self):
         return self.title
+    
+    def complete_task(self, task_title):
+
+        task = self.get_task(task_title)
+
+        if task:
+            task.mark_complete()
+            return True
+
+        return False

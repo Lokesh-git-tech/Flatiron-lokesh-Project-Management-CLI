@@ -30,3 +30,10 @@ class User(Person):
 
     def __str__(self):
         return f"{self.name} ({self.email})"
+    
+    def get_project(self, title):
+        for project in self.projects:
+            if project.title == title:
+                return project
+
+        return None
