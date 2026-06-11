@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Alex",
+        "email": "alex@gmail.com",
+        "projects": [
+            {
+                "title": "CLI Tool",
+                "description": "Python project",
+                "due_date": "2026-08-01",
+                "tasks": [
+                    {
+                        "title": "Write README",
+                        "status": "Pending",
+                        "assigned_to": "Alex"
+                    },
+                    {
+                        "title": "Implement CLI",
+                        "status": "Pending",
+                        "assigned_to": "Alex"
+                    }
+                ]
+            },
+            {
+                "title": "CLI Tool",
+                "description": "Python CLI Project",
+                "due_date": "2026-12-31",
+                "tasks": []
+            }
+        ]
+    },
+    {
+        "name": "Alex",
+        "email": "alex@gmail.com",
+        "projects": []
+    }
+]
